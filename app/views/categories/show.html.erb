@@ -1,3 +1,4 @@
 <h1> Related Posts </h1>
 
-<%= 
+<%= @category.posts.each do |post| %>
+  <%= post.title %>
